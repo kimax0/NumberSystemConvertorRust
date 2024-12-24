@@ -13,13 +13,26 @@ You need rustup to compile and run this program. The installation and setup proc
 
 ### Compiling
 
-After cloning this repository open it in a terminal and cd into the ./nsco folder. From there run ```cargo build```.
+After cloning this repository open it in a terminal and cd into the ./nsco folder. From there run
+
+```shell
+cargo build
+```
 
 ### Running
 
-You can either run the program from the same place where you compiled it. Just run ```cargo run <args>```.
-If you would like to run the compiled file itself, after compiling cd into ./target/debug and run ```./nsco <args>```.
+You can either run the program from the same place where you compiled it. Just run
+
+```shell
+cargo run <args>
+```
+
+If you would like to run the compiled file itself, after compiling cd into ./target/debug and run
+
+```shell
+./nsco <args>
+```
 
 #### Arguements
 
-The program takes in three arguements ```Usage: nsco <number> <base_from> <base_to>```. You provide the number you want to convert, the base in which the number currently is, and the base you want to convert it into.
+The program takes in three arguements ```nsco <number> <base_from> <base_to>```. You provide the number you want to convert, the base in which the number currently is, and the base you want to convert it into.
