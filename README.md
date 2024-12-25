@@ -2,7 +2,7 @@
 
 ## About
 
-This is a CLI program that converts numbers between any two number system with the bases 2 through 36 (base 1 is just a tally, and bases larger than 36 require characters other than 0-9 and A-Z which are non-standard and non-intuitive).
+This is a CLI program that converts numbers between any two number system with the bases 2 through 62 (base 1 is just a tally, and bases larger than 36 require characters other than 0-9 and A-Z which are non-standard and non-intuitive). It uses the standard characters 0-9 for bases 2-10, for bases 11-36 it adds capital letters A-Z to the existing digits, and then for bases 37-62 it implements lowercase letters a-z. It may seem more intuitive to use lowercase letters before uppercase letters but since hexadecimal uses A-F by default it has to follow that standard.
 It's written in [Rust](https://www.rust-lang.org/).
 
 ## Usage
